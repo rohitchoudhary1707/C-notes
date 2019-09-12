@@ -1,0 +1,13 @@
+#include<iostream.h>
+#include<math.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+float x,y;
+cout<<"enter the value of x:";
+cin>>x;
+y=sqrt(x);
+cout<<"square root of "<<x<<"="<<Y;
+getch();
+}

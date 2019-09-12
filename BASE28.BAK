@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a;
+float b;
+char c;
+cout<<"\nsize of (a)="<<sizeof(a);
+cout<<"\nsize of (b)="<<sizeof(b);
+cout<<"\nsize of (c)="<<sizeof(c);
+cout<<"\nsize of (double)="<<sizeof(double);
+cout<<"\nsize of (long double)="<<sizeof(long double);
+cout<<"\nsize of (short)="<<sizeof(short);
+cout<<"\nsize of (123)="<<sizeof(123);
+cout<<"\nsize of (1231)="<<sizeof(1231);
+cout<<"\nsize of (123.55)="<<sizeof(123.55);
+cout<<"\nsize of (123.55f)="<<sizeof(123.55f);
+cout<<"\nsize of (123.55l)="<<sizeof(123.55l);
+getch();
+}

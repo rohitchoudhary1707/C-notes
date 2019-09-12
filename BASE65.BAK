@@ -1,0 +1,28 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,b,c;
+cout<<"\nenter first value:=";
+cin>>a;
+cout<<"\nenter second value:=";
+cin>>b;
+cout<<"\nenter third value:=";
+cin>>c;
+if(a>b)
+{
+	if(a>c)
+	cout<<endl<<a<<" is largest";
+	else
+	cout<<endl<<c<<" is largest";
+}
+else
+{
+	  if(b>c)
+	  cout<<endl<<b<<" is largest";
+	  else
+	  cout<<endl<<c<<" is largest";
+}
+getch();
+}

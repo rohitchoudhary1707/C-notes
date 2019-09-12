@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int choice;
+int a=10;
+cout<<"\n1. case 1";
+cout<<"\n2. case 2";
+cout<<"\nenter your chooice:-";
+cin>>choice;
+switch(choice+a)
+{
+case 11:
+	  cout<<"\ncase 1 selected";
+	  break;
+case 2+10:
+	  cout<<"\ncase 2 selected";
+	  break;
+default:
+	  cout<<"\wrong choice";
+}
+getch();
+}
